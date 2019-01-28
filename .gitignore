@@ -1,0 +1,11 @@
+# ignore mac files
+.DS_Store
+
+# ignore binary
+uss-freeflyer
+
+# ignore build files
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
