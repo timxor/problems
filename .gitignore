@@ -2,7 +2,7 @@
 .DS_Store
 
 # ignore binary
-uss-freeflyer
+freeflyer-turbo-boost
 
 # ignore build files
 CMakeCache.txt
