@@ -3,6 +3,8 @@
 
 # ignore binary
 freeflyer-turbo-boost
+fftb
+fftb.dSYM
 
 # ignore build files
 CMakeCache.txt
