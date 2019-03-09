@@ -1,9 +1,12 @@
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
+'''
+https://leetcode.com/problems/palindrome-linked-list/submissions/
 
+Definition for singly-linked list.
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+'''
 
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
@@ -11,7 +14,7 @@ class Solution:
         # stack, lifo, list in python
         # stack = []
         stack = []
-
+        
         pointer = head
 
         while pointer != None:
@@ -20,18 +23,19 @@ class Solution:
             pointer = pointer.next
 
         pointer = head
-        while len(stack) > 0:
+        while len(stack) > len(stack) // 2:
             index = stack.pop()
-            print("index = ", index)
-            print("pointer.val = ", pointer.val)
-
+            #print("index = ", index)
+            #print("pointer.val = ", pointer.val)
+            
             # compare for equality
             if index != pointer.val:
                 return False
-            print(index == pointer.val)
+            #print(index == pointer.val)
             pointer = pointer.next
-
+            
         return True
+
 
 
 # Input: 1->2
