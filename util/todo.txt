@@ -1,0 +1,5 @@
+# TODO: list comp for 2d list
+# TODO: count 0's and locate 1 & 2 location
+# TODO: return tuple of three values
+# TODO: make Index class with row and column property
+
