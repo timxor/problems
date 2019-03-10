@@ -3,3 +3,5 @@
 # TODO: return tuple of three values
 # TODO: make Index class with row and column property
 
+# list functions, min(), sum() ....
+# for loop types, 
