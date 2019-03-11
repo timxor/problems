@@ -2,5 +2,6 @@
 # mac files
 .DS_Store
 
-# editor
+# editors / ides
 .vscode
+.idea

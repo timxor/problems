@@ -5,3 +5,9 @@
 
 # list functions, min(), sum() ....
 # for loop types, 
+
+# nested data structures
+    # dictionary{int}-->List[string] 
+    # e.g. cache[1] = ["dog", "cat"] 
+    # ...  cache[1].append("bird")
+    

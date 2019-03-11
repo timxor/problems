@@ -1,3 +1,5 @@
+# problem type: geometric problem
+
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         
