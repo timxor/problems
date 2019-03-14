@@ -1,3 +1,6 @@
+import math
+
+
 class Solution:
     def isPalindrome(self, x: int) -> bool:
 
@@ -20,3 +23,7 @@ class Solution:
             msd_mask //= 100
 
         return True
+
+sol = Solution()
+result = sol.isPalindrome(121)
+print("solution...palindrome_numbers = "+ str(result))
