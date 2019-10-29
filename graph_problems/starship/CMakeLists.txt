@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 3.3)
-project(freeflyer-turbo-boost)
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}")
-SET(SOURCE_FILES freeflyer-turbo-boost.c)
-ADD_EXECUTABLE(${PROJECT_NAME} ${SOURCE_FILES})

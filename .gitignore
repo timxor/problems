@@ -1,5 +1,12 @@
 # other files...
-.txt
+*.txt
+python/
+go/todo.go
+scala/todo.txt
+ts/todo.ts
+
+
+jobs/apply.txt
 
 
 # mac files
